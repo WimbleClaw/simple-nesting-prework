@@ -83,11 +83,18 @@ def adding_matz
         }
      }
 
+<<<<<<< HEAD
   programmer_hash[:yukihiro_matsumoto] = {
     :known_for => "Ruby",
       :languages => ["LISP", "C"]
   }
   programmer_hash
+=======
+programmer_hash[:yukihiro_matsumoto] = {
+  :known_for => "Ruby",
+    :languages => ["LISP, C"]
+}
+>>>>>>> b24df4bb23d3feb3d2e2f22a320b64065b66429d
     
 end
 
@@ -108,6 +115,7 @@ def changing_alan
         }
      }
      
+<<<<<<< HEAD
 programmer_hash[:alan_kay][:known_for] = "GUI"
 
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
@@ -115,6 +123,9 @@ alans_new_info = "GUI"
 programmer_hash
      
 
+=======
+programmer_hash[:alan_kay][:known_for] =
+>>>>>>> b24df4bb23d3feb3d2e2f22a320b64065b66429d
 end
 
 def adding_to_dennis
@@ -134,7 +145,11 @@ def adding_to_dennis
         }
      }
      
+<<<<<<< HEAD
 programmer_hash[:dennis_ritchie][:languages] << 'Assembly'    
 programmer_hash
+=======
+     
+>>>>>>> b24df4bb23d3feb3d2e2f22a320b64065b66429d
 
 end
